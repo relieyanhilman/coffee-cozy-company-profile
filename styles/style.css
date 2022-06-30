@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header .nav-container{
+    position: fixed;
+    z-index: 50;
+    display: flex;
+    height: 69px;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+}
+
+.container{
+    display: flex;
+}
+
+.nav-logo{
+    display: flex;
+    height: 50px;
+    padding: 10px;
+}
+
+.nav-word{
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.list-navbar{
+    list-style: none;
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+
+.list-navbar li{
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    position: relative;
+    top: 70px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-mission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.food-mission{
+    width: 100%;
+    position: absolute;
+    height: 700px;
+   
+}
+
+.food-mission img{
+   height: 700px;
+   width: 1200px;
+}
+
+.word-our-mission{
+    width: 100%;
+    background-color: black;
+    z-index: 10;
+    padding: 10px;
+}
+
+.word-our-mission h2{
+    margin-bottom: 10px;
+}
+
+.tea-month{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.word-tea-month h2{
+    padding: 10px;
+}
+.word-tea-month h4{
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.tea-month-details{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.tea-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-tea-item{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.word-tea-item{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.location{
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location-background-container{
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    z-index: 0;
+}
+
+.location-background-container img{
+    width: 1200px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.wording-location{
+    z-index: 10;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.list-location{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 10;
+}
+
+.container-location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    background-color: black;
+}
+
+.container-location p, .container-location h3{
+    padding: 25px 0px;
+}
+
+.list-location .left{
+    margin-right: 40px;
+}
+.list-location .right{
+    margin-left: 40px;
+}
+
+.list-location center{
+    flex-grow: 2;
+    flex-basis: 40px;
+}
+
+footer .closing{
+    top: 80px;
+    z-index: 20;
+    position: relative;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+footer .copyright{
+    position: relative;
+    top: 100px;
+    text-align: left;
+    margin-left: 214px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
